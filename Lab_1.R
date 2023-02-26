@@ -46,5 +46,9 @@ barplot(data = chickwts, height = chickwts$weight,
 legend("topleft", legend = levels(chickwts$feed),
        col = my_colors, pch = my_shapes)
 
+
 #box plot
 boxplot(weight ~ feed, data = chickwts, varwidth = TRUE, noth = TRUE)
+
+
+dev.off()
