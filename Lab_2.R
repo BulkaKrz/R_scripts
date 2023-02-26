@@ -83,4 +83,4 @@ v_alert
 v_alert <- v_used_space_pct >= 90 | (v_used_space_pct >= 80 & v_trend_growing)
 v_alert
 
-
+barplot( height = prices, density = 50, angle = 10, horiz = T, col = c('yellow', 'red', 'blue', 'orange'))
