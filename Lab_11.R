@@ -25,3 +25,4 @@ travel_info$employees
 typeof(travel_info$employees)
 
 travel_info$earnings / travel_info$employees
+
